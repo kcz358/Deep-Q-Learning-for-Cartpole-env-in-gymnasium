@@ -1,0 +1,14 @@
+name: cartpole_env
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch=1.13.1
+  - torchaudio=0.13.1
+  - torchvision=0.14.1
+  - gymnasium=0.26.3
+  - matplotlib=3.7.0
+  - jupyter
+  - pygame
+  - moviepy
